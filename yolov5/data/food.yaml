@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../food/images/ 
+val: ../food/images/ 
+
+# number of classes
+nc: 28
+
+# class names
+names: ['mackerel','pork','chicken','beef','egg','tuna','ham(spam)','tofu','radish','cabbage','chilli','eggplant','tomato','green_pumpkin','cucumber','paprika','spinach','broccoli','sweet_potato','potato','onion','green_onion','garlic','carrot','sweet_pumpkin','milk','cheese','mushroom']
